@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 100%;
+}
+
+#icone_facebook {
+    width: 100%;
+    height: 100px;
+}
+
+#button_form {
+    width: 80%;
+    height: 30px;
+}
+
+input {
+    width: 80%;
+    height: 32px;
+    border-radius: 5px;
+    margin: 5px;
+}
